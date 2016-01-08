@@ -18,9 +18,19 @@ $ npm install blas
 var blas = require( 'blas' );
 ```
 
-#### blas
+### blas
 
 Basic linear algebra subroutines.
+
+
+#### Level 1
+
+*	[blas.dasum][blas-dasum]
+*	[blas.daxpy][blas-daxpy]
+*	[blas-dcopy][blas-dcopy]
+*	[blas-ddot][blas-ddot]
+*	[blas-dscal][blas-dscal]
+*	[blas-dswap][blas-dswap]
 
 
 ## Examples
@@ -116,3 +126,10 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [testling]: https://ci.testling.com
 
 [compute-io]: https://github.com/compute-io
+
+[blas-dasum]: https://www.npmjs.com/package/blas-dasum
+[blas-daxpy]: https://www.npmjs.com/package/blas-daxpy
+[blas-dcopy]: https://www.npmjs.com/package/blas-copy
+[blas-ddot]: https://www.npmjs.com/package/blas-ddot
+[blas-dscal]: https://www.npmjs.com/package/blas-dscal
+[blas-dswap]: https://www.npmjs.com/package/blas-swap
