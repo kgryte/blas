@@ -29,8 +29,10 @@ Basic linear algebra subroutines.
 *	[blas.daxpy][blas-daxpy]
 *	[blas-dcopy][blas-dcopy]
 *	[blas-ddot][blas-ddot]
+*	[blas-dnrm2][blas-dnrm2]
 *	[blas-dscal][blas-dscal]
 *	[blas-dswap][blas-dswap]
+*	[blas-idamax][blas-idamax]
 
 
 ## Examples
@@ -131,5 +133,7 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [blas-daxpy]: https://www.npmjs.com/package/blas-daxpy
 [blas-dcopy]: https://www.npmjs.com/package/blas-copy
 [blas-ddot]: https://www.npmjs.com/package/blas-ddot
+[blas-dnrm2]: https://www.npmjs.com/package/blas-dnrm2
 [blas-dscal]: https://www.npmjs.com/package/blas-dscal
 [blas-dswap]: https://www.npmjs.com/package/blas-swap
+[blas-idamax]: https://www.npmjs.com/package/blas-idamax

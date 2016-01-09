@@ -47,8 +47,10 @@
     "blas-daxpy": "^1.0.3",
     "blas-dcopy": "^1.0.1",
     "blas-ddot": "^1.0.0",
+    "blas-dnrm2": "^1.0.0",
     "blas-dscal": "^1.0.0",
-    "blas-dswap": "^1.0.0"
+    "blas-dswap": "^1.0.0",
+    "blas-idamax": "^1.0.0"
   },
   "devDependencies": {
     "browserify": "12.x.x",
