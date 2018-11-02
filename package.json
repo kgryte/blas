@@ -52,7 +52,6 @@
     "blas-idamax": "^1.0.0"
   },
   "devDependencies": {
-    "browserify": "12.x.x",
     "codecov": "1.x.x",
     "istanbul": "^0.4.1",
     "object-keys": "^1.0.9",
