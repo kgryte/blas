@@ -2,16 +2,23 @@
   "name": "blas",
   "version": "0.2.3",
   "description": "Basic linear algebra subroutines (BLAS).",
+  "license": "Apache-2.0",
   "author": {
-    "name": "Athan Reines",
-    "email": "kgryte@gmail.com"
+    "name": "The Stdlib Authors",
+    "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
   },
   "contributors": [
     {
-      "name": "Athan Reines",
-      "email": "kgryte@gmail.com"
+      "name": "The Stdlib Authors",
+      "url": "https://github.com/stdlib-js/stdlib/graphs/contributors"
     }
   ],
+  "main": "./lib",
+  "directories": {
+    "example": "./examples",
+    "lib": "./lib",
+    "test": "./test"
+  },
   "scripts": {
     "test": "if [ \"${TRAVIS}\" ]; then npm run test-ci; else npm run test-local; fi",
     "test-local": "tape \"./test/*.js\" | tap-spec",
@@ -19,25 +26,11 @@
     "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\"",
     "coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
   },
-  "main": "./lib",
+  "homepage": "https://github.com/stdlib-js/stdlib",
   "repository": {
     "type": "git",
     "url": "https://github.com/kgryte/blas"
   },
-  "keywords": [
-    "blas",
-    "linear",
-    "algebra",
-    "math",
-    "mathematics",
-    "numeric",
-    "compute",
-    "compute.io",
-    "computation",
-    "matrix",
-    "vector",
-    "subroutines"
-  ],
   "bugs": {
     "url": "https://github.com/stdlib-js/stdlib"
   },
@@ -58,5 +51,32 @@
     "tap-spec": "4.x.x",
     "tape": "4.x.x"
   },
-  "license": "Apache-2.0"
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">2.7.0"
+  },
+  "os": [
+    "aix",
+    "darwin",
+    "freebsd",
+    "linux",
+    "macos",
+    "openbsd",
+    "sunos",
+    "win32",
+    "windows"
+  ],
+  "keywords": [
+    "stdlib",
+    "blas",
+    "linear",
+    "algebra",
+    "math",
+    "mathematics",
+    "numeric",
+    "computation",
+    "matrix",
+    "vector",
+    "subroutines"
+  ]
 }
