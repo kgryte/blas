@@ -128,7 +128,7 @@ Copyright © 2016-2018. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
-[license]: https://raw.githubusercontent.com/kgryte/blas/develop/LICENSE
+[license]: https://raw.githubusercontent.com/kgryte/blas/master/LICENSE
 
 [blas-dasum]: https://www.npmjs.com/package/blas-dasum
 [blas-daxpy]: https://www.npmjs.com/package/blas-daxpy
