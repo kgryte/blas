@@ -1,16 +1,14 @@
-BLAS
-===
+# BLAS
+
 [![NPM version][npm-image]][npm-url] [![Build Status][build-image]][build-url] [![Coverage Status][coverage-image]][coverage-url] [![Dependencies][dependencies-image]][dependencies-url]
 
 > Basic linear algebra subroutines (BLAS).
-
 
 ## Installation
 
 ``` bash
 $ npm install blas
 ```
-
 
 ## Usage
 
@@ -22,7 +20,6 @@ var blas = require( 'blas' );
 
 Basic linear algebra subroutines.
 
-
 #### Level 1
 
 *	[blas.dasum][blas-dasum]
@@ -33,7 +30,6 @@ Basic linear algebra subroutines.
 *	[blas-dscal][blas-dscal]
 *	[blas-dswap][blas-dswap]
 *	[blas-idamax][blas-idamax]
-
 
 ## Examples
 
@@ -47,8 +43,8 @@ To run the example code from the top-level application directory,
 $ node ./examples/index.js
 ```
 
-
 ---
+
 ## Tests
 
 ### Unit
@@ -76,33 +72,15 @@ Istanbul creates a `./reports/coverage` directory. To access an HTML version of 
 $ make view-cov
 ```
 
-
-### Browser Support
-
-This repository uses [Testling][testling] for browser testing. To run the tests in a (headless) local web browser, execute the following command in the top-level application directory:
-
-``` bash
-$ make test-browsers
-```
-
-To view the tests in a local web browser,
-
-``` bash
-$ make view-browser-tests
-```
-
-<!-- [![browser support][browsers-image]][browsers-url] -->
-
-
 ---
+
 ## License
 
 [MIT license](http://opensource.org/licenses/MIT).
 
-
 ## Copyright
 
-Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
+Copyright &copy; 2016-2018. The [Stdlib][stdlib] Authors.
 
 
 [npm-image]: http://img.shields.io/npm/v/blas.svg
@@ -125,9 +103,8 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
-[testling]: https://ci.testling.com
 
-[compute-io]: https://github.com/compute-io
+[stdlib]: https://github.com/stdlib-js/stdlib
 
 [blas-dasum]: https://www.npmjs.com/package/blas-dasum
 [blas-daxpy]: https://www.npmjs.com/package/blas-daxpy

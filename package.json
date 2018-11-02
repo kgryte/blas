@@ -15,15 +15,14 @@
   "scripts": {
     "test": "if [ \"${TRAVIS}\" ]; then npm run test-ci; else npm run test-local; fi",
     "test-local": "tape \"./test/*.js\" | tap-spec",
-    "test-ci": "npm run test-local && xvfb-run npm run test-browsers",
+    "test-ci": "npm run test-local",
     "test-cov": "istanbul cover --dir ./reports/coverage --report lcov tape -- \"./test/*.js\"",
-    "test-browsers": "browserify ./test/*.js | testling | tap-spec",
     "coverage": "istanbul cover --dir ./reports/codecov/coverage --report lcovonly tape -- \"./test/*.js\" && cat ./reports/codecov/coverage/lcov.info | codecov && rm -rf ./reports/codecov"
   },
   "main": "./lib",
   "repository": {
     "type": "git",
-    "url": "TODO"
+    "url": "https://github.com/kgryte/blas"
   },
   "keywords": [
     "blas",
@@ -40,7 +39,7 @@
     "subroutines"
   ],
   "bugs": {
-    "url": "TODO"
+    "url": "https://github.com/stdlib-js/stdlib"
   },
   "dependencies": {
     "blas-dasum": "^1.0.1",
@@ -56,30 +55,9 @@
     "browserify": "12.x.x",
     "codecov": "1.x.x",
     "istanbul": "^0.4.1",
-    "jshint": "2.x.x",
-    "jshint-stylish": "2.x.x",
     "object-keys": "^1.0.9",
     "tap-spec": "4.x.x",
-    "tape": "4.x.x",
-    "testling": "1.x.x"
-  },
-  "testling": {
-    "files": [
-      "test/*.js"
-    ],
-    "browsers": [
-      "iexplore/6.0..latest",
-      "firefox/3.0..latest",
-      "firefox/nightly",
-      "chrome/4.0..latest",
-      "chrome/canary",
-      "opera/10.0..latest",
-      "opera/next",
-      "safari/4.0..latest",
-      "ipad/6.0..latest",
-      "iphone/6.0..latest",
-      "android-browser/4.2..latest"
-    ]
+    "tape": "4.x.x"
   },
   "license": "MIT"
 }

@@ -2,19 +2,19 @@
 
 // MODULES //
 
-var test = require( 'tape' );
+var tape = require( 'tape' );
 var getKeys = require( 'object-keys' );
 var blas = require( './../lib' );
 
 
 // TESTS //
 
-test( 'main export is an object', function test( t ) {
+tape( 'main export is an object', function test( t ) {
 	t.ok( typeof blas === 'object', 'main export is an object' );
 	t.end();
 });
 
-test( 'object contains methods', function test( t ) {
+tape( 'object contains methods', function test( t ) {
 	var keys;
 	var i;
 
