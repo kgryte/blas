@@ -106,20 +106,20 @@ Copyright © 2016-2018. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/blas.svg
 [npm-url]: https://npmjs.org/package/blas
 
-[build-image]: http://img.shields.io/travis/TODO/master.svg
-[build-url]: https://travis-ci.org/TODO
+[build-image]: https://img.shields.io/travis/kgryte/blas/master.svg
+[build-url]: https://travis-ci.org/kgryte/blas
 
-[coverage-image]: https://img.shields.io/codecov/c/github/TODO/master.svg
-[coverage-url]: https://codecov.io/github/TODO?branch=master
+[coverage-image]: https://img.shields.io/codecov/c/github/kgryte/blas/master.svg
+[coverage-url]: https://codecov.io/github/kgryte/blas?branch=master
 
-[dependencies-image]: http://img.shields.io/david/TODO.svg
-[dependencies-url]: https://david-dm.org/TODO
+[dependencies-image]: http://img.shields.io/david/kgryte/blas.svg
+[dependencies-url]: https://david-dm.org/kgryte/blas
 
-[dev-dependencies-image]: http://img.shields.io/david/dev/TODO.svg
-[dev-dependencies-url]: https://david-dm.org/dev/TODO
+[dev-dependencies-image]: http://img.shields.io/david/dev/kgryte/blas.svg
+[dev-dependencies-url]: https://david-dm.org/dev/kgryte/blas
 
-[github-issues-image]: http://img.shields.io/github/issues/TODO.svg
-[github-issues-url]: https://github.com/TODO/issues
+[github-issues-image]: http://img.shields.io/github/issues/kgryte/blas.svg
+[github-issues-url]: https://github.com/kgryte/blas/issues
 
 [tape]: https://github.com/substack/tape
 [istanbul]: https://github.com/gotwarlost/istanbul
