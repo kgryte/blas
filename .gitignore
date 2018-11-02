@@ -1,3 +1,20 @@
+#/
+# @license Apache-2.0
+#
+# Copyright (c) 2017 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#/
 
 # Files #
 #########
@@ -5,28 +22,31 @@
 
 # Directories #
 ###############
-reports/
 build/
+downloads/
+lib/node_modules/**/node_modules/
+docs/**/node_modules/
+reports/
+tmp/
 
 # Compiled source #
 ###################
 *.com
 *.class
 *.dll
-*.exe
 *.o
 *.so
 *.slo
 *.lo
 *.obj
 *.dylib
-*.dll
 *.lai
 *.la
 *.a
 *.lib
 *.ko
 *.elf
+*.node
 
 # Precompiled headers #
 #######################
@@ -41,7 +61,7 @@ build/
 
 # Packages #
 ############
-# it's better to unpack these files and commit the raw source
+# It is better to unpack these files and commit the raw source
 # git has its own built in compression methods
 *.7z
 *.dmg
@@ -51,6 +71,9 @@ build/
 *.rar
 *.tar
 *.zip
+
+# Make an exception for compressed distributable files:
+!dist/*.gz
 
 # Logs and databases #
 ######################
@@ -137,7 +160,6 @@ acs-*.bib
 *.glg
 *.glo
 *.gls
-*.brf
 *-concordance.tex
 *.tikz
 *-tikzDictionary
@@ -145,3 +167,8 @@ acs-*.bib
 *.ilg
 *.ind
 *.ist
+
+# Visual Studio #
+#################
+.vscode/
+jsconfig.json
