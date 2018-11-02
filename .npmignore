@@ -1,28 +1,61 @@
+#/
+# @license Apache-2.0
+#
+# Copyright (c) 2017 The Stdlib Authors.
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#    http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+#/
 
 # Files #
 #########
-Makefile
-README.md
 TODO.md
+ROADMAP.md
+
 
 # Directories #
 ###############
-build/
-docs/
-examples/
+.circleci/
+.github/
+**/benchmark/
+**/build/
+**/examples/
 reports/
 support/
-test/
-benchmark/
+**/tmp/
+workshops/
+
+# Ignore test directories, except for testing dependency installation:
+**/test/
+!/deps/test/
+
+# Only top-level directories:
+/etc/
+/tools/
+/docs/
+
 
 # Node.js #
 ###########
 .npmignore
+
+# Only top-level node_modules:
 /node_modules/
+
 
 # Logs #
 ########
 *.log
+
 
 # OS generated files #
 ######################
@@ -36,19 +69,35 @@ ehthumbs.db
 Thumbs.db
 Desktop.ini
 
+
 # Temporary files #
 ###################
 *~
 
+
 # Git #
 #######
 .git*
+.mailmap
+
 
 # Utilities #
 #############
 .jshintrc
 .jshintignore
-.eslintrc
+.eslintrc*
+.eslintignore
+
+.pylintrc
+.pycodestyle
+.pydocstyle
+
 .travis.yml
 circle.yml
+appveyor.yml
+
 .editorconfig
+.codeclimate.yml
+.codecov.yml
+
+.rtlintrc
