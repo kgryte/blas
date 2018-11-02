@@ -76,11 +76,11 @@ $ make view-cov
 
 ## License
 
-[MIT license](http://opensource.org/licenses/MIT).
+See [LICENSE][license].
 
 ## Copyright
 
-Copyright &copy; 2016-2018. The [Stdlib][stdlib] Authors.
+Copyright © 2016-2018. The Stdlib [Authors][stdlib-authors].
 
 
 [npm-image]: http://img.shields.io/npm/v/blas.svg
@@ -105,6 +105,10 @@ Copyright &copy; 2016-2018. The [Stdlib][stdlib] Authors.
 [istanbul]: https://github.com/gotwarlost/istanbul
 
 [stdlib]: https://github.com/stdlib-js/stdlib
+
+[stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
+
+[license]: https://raw.githubusercontent.com/kgryte/blas/develop/LICENSE
 
 [blas-dasum]: https://www.npmjs.com/package/blas-dasum
 [blas-daxpy]: https://www.npmjs.com/package/blas-daxpy
