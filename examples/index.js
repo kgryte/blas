@@ -20,4 +20,20 @@
 
 var blas = require( './../lib' );
 
-console.log( blas );
+var rand;
+var sign;
+var x;
+var i;
+
+x = new Float64Array( 100 );
+for ( i = 0; i < x.length; i++ ) {
+	rand = Math.round( Math.random()*100.0 );
+	sign = Math.random();
+	if ( sign < 0.5 ) {
+		sign = -1.0;
+	} else {
+		sign = 1.0;
+	}
+	x[ i ] = sign * rand;
+}
+console.log( blas.dasum( x.length, x, 1 ) );
