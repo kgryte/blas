@@ -44,12 +44,12 @@ Basic linear algebra subroutines.
 
 *	[blas.dasum][blas-dasum]
 *	[blas.daxpy][blas-daxpy]
-*	[blas-dcopy][blas-dcopy]
-*	[blas-ddot][blas-ddot]
-*	[blas-dnrm2][blas-dnrm2]
-*	[blas-dscal][blas-dscal]
-*	[blas-dswap][blas-dswap]
-*	[blas-idamax][blas-idamax]
+*	[blas.dcopy][blas-dcopy]
+*	[blas.ddot][blas-ddot]
+*	[blas.dnrm2][blas-dnrm2]
+*	[blas.dscal][blas-dscal]
+*	[blas.dswap][blas-dswap]
+*	[blas.idamax][blas-idamax]
 
 ## Examples
 
