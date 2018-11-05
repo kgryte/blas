@@ -23,6 +23,7 @@ var blas = require( './../lib' );
 var rand;
 var sign;
 var x;
+var y;
 var i;
 
 x = new Float64Array( 100 );
@@ -37,3 +38,16 @@ for ( i = 0; i < x.length; i++ ) {
 	x[ i ] = sign * rand;
 }
 console.log( blas.dasum( x.length, x, 1 ) );
+
+x = new Float64Array( 10 );
+y = new Float64Array( 10 );
+for ( i = 0; i < x.length; i++ ) {
+	x[ i ] = Math.round( Math.random()*500.0 );
+	y[ i ] = Math.round( Math.random()*255.0 );
+}
+console.log( x );
+console.log( y );
+
+// Copy elements from `x` into `y` starting from the end of `y`:
+blas.dcopy( x.length, x, 1, y, -1 );
+console.log( y );
