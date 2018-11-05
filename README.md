@@ -126,6 +126,12 @@ $ make view-cov
 
 ---
 
+## Contributing
+
+To contribute, see [stdlib][stdlib] (the monorepo in which development takes place).
+
+---
+
 ## License
 
 See [LICENSE][license].
